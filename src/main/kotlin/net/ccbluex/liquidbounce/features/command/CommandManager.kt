@@ -108,7 +108,7 @@ object CommandManager : Iterable<Command> {
          * prefix (.)
          * ```
          */
-        var prefix by text("prefix", ".")
+        var prefix by text("prefix", "-")
 
     }
 
