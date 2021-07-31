@@ -40,12 +40,13 @@ object Chat : ToggleableConfigurable(null, "chat", true), ClientListener {
     }
 
     fun connect() {
-        if (!enabled) {
+        /*if (!enabled) {
             return
         }
 
         client.connect()
-        client.loginMojang()
+        client.loginMojang()*/
+        return
     }
 
     override fun onConnect() {
