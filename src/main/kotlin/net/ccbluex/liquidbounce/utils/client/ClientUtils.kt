@@ -54,7 +54,7 @@ const val MC_1_8: Int = 47
 // Chat formatting
 private val clientPrefix = "§8[§9§l${LiquidBounce.CLIENT_NAME}§8] ".asText()
 
-fun dot() = regular("-")
+fun dot() = regular(".")
 
 fun regular(text: BaseText) = text.styled { it.withColor(Formatting.GRAY) }
 
