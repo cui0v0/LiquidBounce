@@ -32,4 +32,9 @@ jobs:
           gradle-version: wrapper
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
+        with:
+          name: liquidbounce.jar
+          path: build/libs/liquidbounce.jar
+
+
 
