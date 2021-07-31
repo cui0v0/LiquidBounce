@@ -5,9 +5,6 @@ on:
     branches: [ nextgen ]
   pull_request:
     branches: [ nextgen ]
-  issues:
-    types: [opened, edited, milestoned]
-    branches: [ nextgen ]
 
 jobs:
   build:
